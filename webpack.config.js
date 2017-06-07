@@ -19,6 +19,10 @@ module.exports = {
           'presets': ['es2015', 'stage-0']
         },
         exclude: /node_modules/
+      },
+      {
+        test: /\.(png|jpg|jpeg|gif|svg)/,
+        loaders: ['url', 'img']
       }
     ]
   },
