@@ -1,0 +1,41 @@
+.header
+  background header-color
+  color secondary-color
+
+// .sub-header
+//   background sub-header-color
+
+.header__content
+  display flex
+  align-items center
+  justify-content space-between
+
+.main
+  display flex
+  align-items center
+  .main__logo
+    margin 0 25px
+    img
+      height 50px
+      margin 5px 0
+      width auto
+
+.menu
+  .menu__item
+    color #fff
+    text-transform uppercase
+    text-decoration none
+    margin 0 5px
+    padding 0.625rem 1.25rem
+    transition color 0.3s ease
+    &:hover
+      color secondary-color
+      cursor pointer
+    &--active
+      background active-color
+
+.loading
+  width 100%
+  display flex
+  align-items center
+  justify-content center

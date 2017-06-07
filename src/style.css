@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  margin: 0 auto;
+  width: 90% !important;
+}
+.header {
+  background: #263238;
+  color: rgba(255,255,255,0.4);
+}
+.sub-header {
+  background: #444;
+}
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main {
+  display: flex;
+  align-items: center;
+}
+.main .main__logo {
+  margin: 0 25px;
+}
+.main .main__logo img {
+  height: 50px;
+  margin: 5px 0;
+  width: auto;
+}
+.menu .menu__item {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 5px;
+  padding: 0.625rem 1.25rem;
+  transition: color 0.3s ease;
+}
+.menu .menu__item:hover {
+  color: rgba(255,255,255,0.4);
+  cursor: pointer;
+}
+.menu .menu__item--active {
+  background: #f16162;
+}
+.loading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
+  background: #f4f4f4;
+}
+.content > div {
+  width: 100%;
+}
+.posts {
+  margin: 0 auto;
+  width: 90% !important;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.posts__post {
+  width: 22%;
+}
+footer {
+  background: #263238;
+}
