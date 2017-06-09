@@ -1,6 +1,4 @@
 import './stylus/main.styl'
-const arr = [1, 2, 3, 4, 5, 6, 7]
+import searchFocus from './search-focus'
 
-const [head, ...tail] = arr
-
-console.log('primeiro item do array', head)
+searchFocus()
